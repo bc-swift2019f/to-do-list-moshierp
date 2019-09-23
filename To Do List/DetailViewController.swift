@@ -11,6 +11,7 @@ import UIKit
 class DetailViewController: UIViewController {
 
     @IBOutlet weak var toDoField: UITextField!
+    @IBOutlet weak var saveBarButton: UIBarButtonItem!
     
     var toDoItem: String?
     
@@ -20,13 +21,24 @@ class DetailViewController: UIViewController {
         if let toDoItem = toDoItem {
             toDoField.text = toDoItem
         
+        
         }
+            toDoField.becomeFirstResponder()
         
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "UnwindFromSave" {
             toDoItem = toDoField.text
+        }
+    }
+    
+    
+    @IBAction func toDoFieldChanged(_ sender: UITextField) {
+        if toDoField.text!.count > 0 {
+            saveBarButton.isEnabled = true
+        } else {
+            saveBarButton.isEnabled = false
         }
     }
     

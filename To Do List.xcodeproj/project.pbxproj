@@ -12,6 +12,7 @@
 		F96491882339485C00D695D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96491862339485C00D695D0 /* Main.storyboard */; };
 		F964918A2339485F00D695D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96491892339485F00D695D0 /* Assets.xcassets */; };
 		F964918D2339485F00D695D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F964918B2339485F00D695D0 /* LaunchScreen.storyboard */; };
+		F964919523394D4000D695D0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F964919423394D4000D695D0 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F96491892339485F00D695D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F964918C2339485F00D695D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F964918E2339485F00D695D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F964919423394D4000D695D0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				F96491822339485C00D695D0 /* AppDelegate.swift */,
 				F96491842339485C00D695D0 /* ViewController.swift */,
 				F96491862339485C00D695D0 /* Main.storyboard */,
+				F964919423394D4000D695D0 /* DetailViewController.swift */,
 				F96491892339485F00D695D0 /* Assets.xcassets */,
 				F964918B2339485F00D695D0 /* LaunchScreen.storyboard */,
 				F964918E2339485F00D695D0 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F964919523394D4000D695D0 /* DetailViewController.swift in Sources */,
 				F96491852339485C00D695D0 /* ViewController.swift in Sources */,
 				F96491832339485C00D695D0 /* AppDelegate.swift in Sources */,
 			);
